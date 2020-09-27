@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  example:
+    repository: knightdave/addon-example
+    target: example
+    image: knightdave/example-{arch}

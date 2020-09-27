@@ -1,0 +1,11 @@
+
+bin/*
+*.do
+bin/*
+docs/*
+site/*
+pip-selfcheck.json
+pyvenv.cfg
+include/
+lib/
+venv/

@@ -1,2 +1,2 @@
 # hassio-repository
-Home assistant repository
+Knight Dave's Home assistant repository
