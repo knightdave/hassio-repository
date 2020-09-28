@@ -11,7 +11,7 @@ stages:
 
 yamllint:
   <<: *linting
-  image: pipelinecomponents/yamllint:latest
+  image: knightdave/yamllint:latest
   before_script:
     - yamllint --version
   script:
@@ -19,7 +19,7 @@ yamllint:
 
 jsonlint:
   <<: *linting
-  image: pipelinecomponents/jsonlint:latest
+  image: knightdave/jsonlint:latest
   before_script:
     - jsonlint --version || true
   script:
