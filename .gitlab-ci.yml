@@ -11,7 +11,7 @@ stages:
 
 yamllint:
   <<: *linting
-  image: sdesbure/yamllint
+  image: pipelinecomponents/yamllint:latest
   before_script:
     - yamllint --version
   script:
@@ -19,7 +19,7 @@ yamllint:
 
 jsonlint:
   <<: *linting
-  image: sahsu/docker-jsonlint
+  image: pipelinecomponents/jsonlint:latest
   before_script:
     - jsonlint --version || true
   script:
