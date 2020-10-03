@@ -11,7 +11,7 @@ stages:
 
 yamllint:
   <<: *linting
-  image: knightdave/yamllint:latest
+  image: programmerassistant/yamllint:edge
   before_script:
     - yamllint --version
   script:
@@ -19,7 +19,7 @@ yamllint:
 
 jsonlint:
   <<: *linting
-  image: knightdave/jsonlint:latest
+  image: programmerassistant/jsonlint:edge
   before_script:
     - jsonlint --version || true
   script:
